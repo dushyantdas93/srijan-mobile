@@ -29,11 +29,12 @@ mongoose
 const app = express();
 const PORT = process.env.PORT || 5000;
 
+
 app.use(
   cors({
     origin: [
       "http://localhost:5173",
-      "https://srijan-mobiles-frontend.vercel.app",
+      "https://srijan-mobile.vercel.app",
       "https://srijanmobiles.store",
       "https://www.sijanmobiles.store",
     ],
